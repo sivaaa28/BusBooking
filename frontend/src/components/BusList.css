@@ -1,0 +1,70 @@
+.bus-list-container {
+    background-image: url('../assets/doodle1.jpg'); /* Replace with the correct path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .bus-list {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  .bus-list h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .bus-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bus-list li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .bus-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bus-list li button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bus-list li button:hover {
+    background-color: #45a049;
+  }
+  
+  .bus-list .no-buses {
+    text-align: center;
+    color: #999;
+    font-size: 16px;
+    padding: 20px;
+  }
+  

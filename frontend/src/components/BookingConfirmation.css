@@ -1,0 +1,54 @@
+/* Set up the overall layout and styling for the confirmation page */
+.booking-confirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background: url('../assets/rangoli.avif') no-repeat center center fixed; /* Adjust the path to your image */
+    background-size: cover;
+  }
+  
+  /* Style the message box with a pop-up animation */
+  .message-box {
+    background: black; /* Add transparency */
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: popper-animation 1s ease-out forwards;
+    z-index: 10;
+  }
+  
+  /* Style the header and paragraphs inside the message box */
+  .message-box h1 {
+    font-size: 65px;
+    color:yellow;
+    margin: 0;
+  }
+  
+  .message-box p {
+    font-size: 35px;
+    color: white;
+    margin: 5px 0 0;
+  }
+  
+  /* Define the pop-up animation for the message box */
+  @keyframes popper-animation {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,77 @@
+.seat-selection {
+  background-image: url('../assets/doodle1.jpg');
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.seats {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.seat {
+  position: relative; /* Position relative to allow absolute positioning */
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.seat.selected {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.seat:hover {
+  background-color: black;
+  color: white;
+}
+
+.seat:hover .hover-dialog {
+  display: block; /* Show the hover dialog when seat is hovered */
+}
+
+.hover-dialog {
+  display: none; /* Initially hide the hover dialog */
+  position: absolute;
+  top: -30px; /* Adjust the position of the dialog box */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.seat {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.seat {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.selected {
+  background-color: #4CAF50 !important; /* Set the background color to green when selected */
+}

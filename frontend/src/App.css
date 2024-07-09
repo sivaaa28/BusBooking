@@ -1,0 +1,23 @@
+/* src/components/Home.css */
+
+
+.home h1 {
+  margin-bottom: 20px;
+}
+
+.home label {
+  display: block;
+  margin: 10px 0;
+}
+
+.home select,
+.home input {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.home button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+}

@@ -1,0 +1,66 @@
+/* src/components/Auth.css */
+.auth-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.auth-container input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth-container button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.auth-container button:hover {
+  background-color: #45a049;
+}
+
+.auth-container p {
+  text-align: center;
+}
+
+.auth-container a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+  
+}
+
+.login-container {
+  /* background-image: url('../assets/bus10.jpeg'); */
+  background-size: cover;
+  background-position: center;
+}

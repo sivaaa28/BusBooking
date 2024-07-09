@@ -1,0 +1,9 @@
+/* return-content.css */
+
+.return-content {
+    background-color: #dff0d8; /* Set a different background color for return content */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px; /* Add some margin to separate it from other content */
+  }
+  

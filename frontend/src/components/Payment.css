@@ -1,0 +1,45 @@
+.payment-container {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.qr-code-container {
+  margin-top: 20px;
+}
+
+.qr-code {
+  width: 200px;
+  height: 200px;
+}
+
+.total-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff0000; /* Red color for highlighting */
+  margin-top: 10px;
+}
+
+.upload-container {
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
